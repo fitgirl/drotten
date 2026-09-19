@@ -41,7 +41,7 @@ Here is the long list. Most of this is from [Gotlandsbolaget](https://gotlandsbo
 - **Exhaust treatment:** Siemens SINOx SCR catalytic converters
 - **NOx figure in the owner’s list:** maximum 2 g/kWh
 
-Destination Gotland lists her as **SF1500**. Her Swedish routes connect Visby with Nynäshamn and Oskarshamn. The newer Gotland and Visby are listed as SF1650, so make sure you open the SF1500 information when looking for Drotten. [Operator’s ship list](https://www.destinationgotland.se/en/all-about-the-trip/our-ferries/).
+Destination Gotland lists her as **SF1500**. Her Swedish routes connect Visby with Nynäshamn and Oskarshamn.
 
 Some other numbers from [The Ferry Site](https://www.ferry-site.dk/ferry.php?id=9223796):
 
