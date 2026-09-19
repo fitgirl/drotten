@@ -1,17 +1,17 @@
 ---
 title: 'M/S Drotten'
-layout: '../layouts/Docs.astro'
+layout: '../layouts/Base.astro'
 ---
 
-# M/S Drotten
+# My favourite ship
 
 **M/S Drotten is the best ship** because somebody put **50,400 kW of machinery** inside a 196-metre passenger ferry and I apparently need an entire website to explain how much I love that. She does 28.5 knots. That’s about 52.8 km/h. Look at her **SIZE** and then think about that speed again. [Actual ship numbers](https://www.destinationgotland.se/en/all-about-the-trip/our-ferries/).
 
 This is my Drotten site. The specification list is compulsory. scroll slowly.
 
-<figure class="panel p-3 my-5 max-w-[700px]">
-<a href="/drotten.jpg"><img src="/drotten.jpg" width="4288" height="2848" alt="M/S Drotten entering Visby harbour, with her white hull and red funnel" style="image-rendering:auto" /></a>
-<figcaption class="text-black text-sm pt-2">Drotten entering Visby. Photo: <a href="https://commons.wikimedia.org/wiki/File:M-S_Drotten_Port_of_Visby_6.jpg">Fino Munich / Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Click the photo for the full size.</figcaption>
+<figure>
+<a href="/drotten.jpg"><img src="/drotten.jpg" width="4288" height="2848" alt="M/S Drotten entering Visby harbour, with her white hull and red funnel" /></a>
+<figcaption >Drotten entering Visby. Photo: <a href="https://commons.wikimedia.org/wiki/File:M-S_Drotten_Port_of_Visby_6.jpg">Fino Munich / Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Click the photo for the full size.</figcaption>
 </figure>
 
 ## The numbers
