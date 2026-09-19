@@ -58,7 +58,7 @@ The measurements are a bit annoying. Some pages say 195.8 m long and 25 m wide. 
 
 Ok the engines. **FOUR Wärtsilä 12V46C diesels.** I would really want to see them up close. Just standing beside one must feel crazy when you are used to a normal car engine. And then remember there are three more in the same ship.
 
-Wärtsilä says they supplied **eight 46-series main engines and six 20-series auxiliary engines** for Drotten and her sister together. They supplied propellers for one ship as well, but it does not say which one. That is irritating because obviously that is the next thing I want to know. [Wärtsilä](https://www.wartsila.com/media/news/29-08-2003-statement-by-wartsila-on-the-gotland-bribery-suspect).
+Wärtsilä says they supplied **eight 46 series main engines and six 20 series auxiliary engines** for Drotten and her sister together. They supplied propellers for one ship as well, but it does not say which one. That is irritating because obviously that is the next thing I want to know. [Wärtsilä](https://www.wartsila.com/media/news/29-08-2003-statement-by-wartsila-on-the-gotland-bribery-suspect).
 
 I did some maths with the figures:
 
@@ -94,7 +94,7 @@ I like that this PDF still says M/S Gotland. It is a little piece of the ship fr
 I can spend way too long looking at this [deck plan](https://www.destinationgotland.se/globalassets/dokument/oversiktskartor/sf1500-seatingplan.pdf). You start with “where is the restaurant” and then you are following all the stairs instead.
 
 - **Deck 7** is marked as the lounge deck, *salongdäck*.
-- **Deck 8** is marked as the day-cabin deck, *kupédäck*.
+- **Deck 8** is marked as the day cabin deck, *kupédäck*.
 - The plan lists a front lounge and an aft lounge.
 - There is a separate pet lounge, *djursalong*.
 - It also lists the information desk, bistro, restaurant and shop.
@@ -125,8 +125,8 @@ She has actually been to quite many places. I added the early dates too because 
 
 - **2003:** built as Gotland and joined the Gotland service. [Gotlandsbolaget](https://gotlandsbolaget.se/fartyg/m-s-drotten/).
 - **2020:** changed name from Gotland to Drotten. [Name history](https://www.ferry-site.dk/ferry.php?id=9223796).
-- **27 January 2021:** the Port of Dunkerque announced Drotten for the **Dunkerque–Rosslare** service operated by DFDS. That is France to Ireland. The port also described her as Visby’s sister ship. [Port announcement](https://www.dunkerque-port.fr/wp-content/uploads/2021/01/403_Irlande_Drotten_EN.pdf).
-- **30 August 2021:** Hansa Destinations started its Nynäshamn–Rostock service. Drotten was used on this operation, which also included Visby calls. [Gotlandsbolaget’s announcement](https://corporate.gotlandsbolaget.se/sv/hansa-destinations-trafikerar-inte-nynashamn-rostock-under-2023/).
+- **27 January 2021:** the Port of Dunkerque announced Drotten for the **Dunkerque Rosslare** service operated by DFDS. That is France to Ireland. The port also described her as Visby’s sister ship. [Port announcement](https://www.dunkerque-port.fr/wp-content/uploads/2021/01/403_Irlande_Drotten_EN.pdf).
+- **30 August 2021:** Hansa Destinations started its Nynäshamn-Rostock service. Drotten was used on this operation, which also included Visby calls. [Gotlandsbolaget’s announcement](https://corporate.gotlandsbolaget.se/sv/hansa-destinations-trafikerar-inte-nynashamn-rostock-under-2023/).
 - **15 December 2022:** the company announced that Hansa Destinations would not operate the route in 2023. They gave high fuel prices and difficulty increasing freight volumes as the reasons. This was a decision about the route, not Drotten being scrapped. [Same announcement](https://corporate.gotlandsbolaget.se/sv/hansa-destinations-trafikerar-inte-nynashamn-rostock-under-2023/).
 - **August 2023:** Gotlandsbolaget reported technical problems which took Drotten out of Gotland service for repairs at the end of week 32. The report does not explain the exact fault, so I have not written a guess here. [Company report](https://corporate.gotlandsbolaget.se/sv/delarsrapport-januari-juni-2023/).
 
