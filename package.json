@@ -4,14 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "start": "serve -s dist -l 3000",
+    "start": "node server.js",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
-  "dependencies": {
-    "serve": "^14.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@astrojs/tailwind": "^1.0.0",
     "astro": "^1.0.7"
