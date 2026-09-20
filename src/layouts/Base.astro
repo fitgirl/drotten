@@ -1,4 +1,52 @@
 ---
+import LanguageFlag from '../components/LanguageFlag.astro';
+const swedish = Astro.props.content?.lang === 'sv';
+const lang = swedish ? 'sv' : 'en';
+const sections = [
+  ['ship-facts', 'Ship facts', 'Fakta om Drotten'],
+  ['engines', 'Engines', 'Motorerna'],
+  ['who-designed-her', 'Design', 'Så ritades hon'],
+  ['inside-the-ship', 'Inside the ship', 'Ombord'],
+  ['when-she-was-called-gotland', 'The old name', 'När hon hette Gotland'],
+  ['places-she-has-sailed', 'Where she has sailed', 'Var hon har gått'],
+  ['my-sources', 'Sources', 'Källor'],
+];
+if (swedish) sections.unshift(...sections.splice(4, 1));
 ---
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>M/S Drotten fan page</title><meta name="description" content="A personal page dedicated to M/S Drotten photographs, specifications, engines and her history as M/S Gotland."/><link rel="stylesheet" href="/minimal.css"/><link rel="stylesheet" href="/drotten.css"/></head>
-<body id="top"><a class="skip" href="#content">Skip to content</a><div class="wrapper"><header><h1><a href="#top">M/S Drotten</a></h1><p>My page about Drotten.</p><nav aria-label="On this page"><a href="#ship-facts">Ship facts</a><a href="#engines">Engines</a><a href="#who-designed-her">Design</a><a href="#inside-the-ship">Inside the ship</a><a href="#when-she-was-called-gotland">The old name</a><a href="#places-she-has-sailed">Where she has sailed</a><a href="#my-sources">Sources</a></nav></header><section id="content" aria-label="About M/S Drotten"><slot/></section><footer><p>This is a fan page, not Destination Gotland’s website.</p></footer></div></body></html>
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{swedish ? 'Min sida om M/S Drotten' : 'M/S Drotten fan page'}</title>
+    <meta name="description" content={swedish ? 'Min sida om M/S Drotten. Motorerna, alla siffror och åren då hon hette Gotland.' : 'A personal page dedicated to M/S Drotten photographs, specifications, engines and her history as M/S Gotland.'} />
+    <link rel="alternate" hreflang="en" href="/" />
+    <link rel="alternate" hreflang="sv" href="/sv/" />
+    <link rel="stylesheet" href="/minimal.css" />
+    <link rel="stylesheet" href="/drotten.css" />
+  </head>
+  <body id="top">
+    <a class="skip" href="#content">{swedish ? 'Hoppa till innehållet' : 'Skip to content'}</a>
+    <div class="wrapper">
+      <header>
+        <h1><a href="#top">M/S Drotten</a></h1>
+        <p>{swedish ? 'Min sida om Drotten.' : 'My page about Drotten.'}</p>
+        <details class="languages">
+          <summary aria-label={swedish ? 'Byt språk, svenska valt' : 'Change language, English selected'}>
+            <LanguageFlag language={lang} />
+            <span>{swedish ? 'Svenska' : 'English'}</span>
+          </summary>
+          <nav aria-label={swedish ? 'Språk' : 'Language'}>
+            <a href="/" lang="en" hreflang="en" aria-current={!swedish ? 'page' : undefined}><LanguageFlag language="en" />English</a>
+            <a href="/sv/" lang="sv" hreflang="sv" aria-current={swedish ? 'page' : undefined}><LanguageFlag language="sv" />Svenska</a>
+          </nav>
+        </details>
+        <nav aria-label={swedish ? 'På den här sidan' : 'On this page'}>
+          {sections.map(([id, en, sv]) => <a href={`#${id}`}>{swedish ? sv : en}</a>)}
+        </nav>
+      </header>
+      <section id="content" aria-label={swedish ? 'Om M/S Drotten' : 'About M/S Drotten'}><slot /></section>
+      <footer><p>{swedish ? 'Det här är en fansida, inte Destination Gotlands hemsida.' : 'This is a fan page, not Destination Gotland’s website.'}</p></footer>
+    </div>
+  </body>
+</html>

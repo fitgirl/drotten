@@ -38,7 +38,7 @@ const MIME_TYPES = {
 };
 
 function safeJoin(base, target) {
-  const targetPath = path.posix.normalize('/' + target);
+  const targetPath = path.posix.normalize('/' + target.replace(/\\/g, '/'));
   return path.join(base, targetPath);
 }
 
@@ -66,7 +66,15 @@ function send404(res) {
 }
 
 const server = http.createServer((req, res) => {
-  let urlPath = decodeURIComponent(req.url.split('?')[0]);
+  let urlPath;
+  try {
+    urlPath = decodeURIComponent(req.url.split('?')[0]);
+    if (urlPath.includes('\0')) throw new URIError('Invalid path');
+  } catch {
+    res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
+    res.end('Bad Request');
+    return;
+  }
   let filePath = safeJoin(DIST_DIR, urlPath);
 
   fs.stat(filePath, (err, stats) => {

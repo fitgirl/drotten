@@ -134,6 +134,8 @@ The Ireland bit is so cool to me. I always connect Drotten with Visby and then t
 
 ## My sources
 
+Found something wrong, or have more info about Drotten? Add **illia.mn** on Discord and let me know.
+
 These are the pages I used. Checked 19 September 2026. Some old pages still say she is on routes she has already left, so check the date if you are looking for where she is now.
 
 - [Gotlandsbolaget’s fleet list](https://gotlandsbolaget.se/om-oss/vara-fartyg/) for the main dimensions and capacities.
